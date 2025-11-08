@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function num_order(a,b)
+{
+   return b-a;
+}
+var num_list=[2,3,7,6,5,1];
+document.write("array with sort:",num_list.sort(),"<br/>");
+document.write("sorted array:",num_list.sort(num_order));
+</script>
+</body>
+</html>
+
